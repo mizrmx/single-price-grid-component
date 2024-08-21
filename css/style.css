@@ -1,0 +1,80 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root
+{
+    --cyan: hsl(179, 62%, 43%);
+    --bright-yellow: hsl(71, 73%, 54%);
+    --light-gray: hsl(204, 43%, 93%);
+    --grayish-blue: hsl(218, 22%, 67%);
+}
+
+ul
+{
+    list-style-type: none;
+}
+
+body
+{
+    font-family: "Karla", sans-serif;
+    font-size: 16px;
+    background-color: var(--light-gray);
+}
+
+.btn 
+{
+    background-color: var(--bright-yellow);
+    color: #FFF;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 0.625rem 1.25rem;
+    border-radius: 0.5rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+p, li
+{
+    line-height: 1.6;
+}
+
+p.green 
+{
+    color: var(--bright-yellow);
+    font-weight: 700;
+}
+
+.container
+{
+    background-color: #FFF;
+}
+
+.container >  article:first-child
+{
+    padding: 2rem;
+}
+
+.container >  article:first-child h1 
+{
+    color: var(--cyan);
+    margin-bottom: 1rem;
+}
+
+.container >  article:first-child p
+{
+    margin-bottom:  1rem;
+}
+
+.container >  article:first-child p:last-child
+{
+    
+}
